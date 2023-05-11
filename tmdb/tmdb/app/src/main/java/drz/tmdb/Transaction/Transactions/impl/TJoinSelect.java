@@ -28,7 +28,7 @@ public class TJoinSelect extends SelectImpl{
     //重写select的intersect方法，使其使用trajectory similarity join 进行连接
     static Comparator<Coordinate> comparator = (p1, p2) -> {
         double dist = Geo.distance(p1, p2);
-        if (dist <= 50) return 0;
+        if (dist <= 5) return 0;
         return 1;
     };
     @Override
@@ -51,8 +51,8 @@ public class TJoinSelect extends SelectImpl{
                 Tuple rightTuple = right.getTpl().tuplelist.get(j);
                 List<Coordinate> rightTraj = TrajTrans.getTraj((String) rightTuple.tuple[2]);
                 //通过longestCommonSubSequence的getCommonSubsequence方法得到traj1和traj2的公共子序列，theta值自设
-                double similarity = SimilarityFunction.LongestCommonSubsequence(leftTraj, rightTraj, 3);
-                List<Coordinate> commonSubsequence = longestCommonSubSequence.getCommonSubsequence(leftTraj, rightTraj, 3);
+                double similarity = SimilarityFunction.LongestCommonSubsequence(leftTraj, rightTraj, 512);
+                List<Coordinate> commonSubsequence = longestCommonSubSequence.getCommonSubsequence(leftTraj, rightTraj, 512);
                 //通过得到的子序列的长度设置阈值，判定当前子序列是否值得加入结果集合中
                 if(similarity>=1.0){
                     //如果满足，则新建加入到结果结合中的tuple

@@ -63,7 +63,7 @@ public class MapActivity extends Activity implements LocationSource,
 
     private int[] colorIcon = new int[]{R.drawable.tpoint1, R.drawable.tpoint2, R.drawable.tpoint3,
             R.drawable.tpoint4,R.drawable.tpoint5, R.drawable.tpoint6, R.drawable.tpoint7,
-            R.drawable.tpoint8, R.drawable.tpoint9, R.drawable.tpoint10, R.drawable.tpoint11 };
+            R.drawable.tpoint8, R.drawable.tpoint10, R.drawable.tpoint11, R.drawable.tpoint9 };
 
 
     @Override
@@ -105,12 +105,13 @@ public class MapActivity extends Activity implements LocationSource,
     }
 
 
-    private void drawTrace(ArrayList<ArrayList<TrajectoryPoint>> trajectories){
+    private void drawTrace(ArrayList<ArrayList<TrajectoryPoint>> trajectories, int draw_type){
         if(trajectories == null || trajectories.size() == 0)
             return;
         int counter = -1;
         for(ArrayList<TrajectoryPoint> trajectory : trajectories){
-            counter = (counter + 1) % 11;
+            if(draw_type==0) counter = (counter + 1) % 10;
+            else counter = 10;
             //List<LatLng> latLngs = new ArrayList<>();
             // 绘制每条轨迹
             int path_cnt=0;
@@ -130,13 +131,13 @@ public class MapActivity extends Activity implements LocationSource,
     private void drawTrace_traj(){
         // 读取历史轨迹数据
         ArrayList<ArrayList<TrajectoryPoint>> trajectories_traj = TrajectoryUtils.load();
-        drawTrace(trajectories_traj);
+        drawTrace(trajectories_traj, 0);
     }
 
     private void drawTrace_tjoin(){
         // 读取历史轨迹数据
         ArrayList<ArrayList<TrajectoryPoint>> trajectories_traj = TrajectoryUtils.load_tjoin();
-        drawTrace(trajectories_traj);
+        drawTrace(trajectories_traj, 1);
     }
 
 

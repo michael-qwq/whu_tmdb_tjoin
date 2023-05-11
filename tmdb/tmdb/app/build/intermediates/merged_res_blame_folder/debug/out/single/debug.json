@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tab_bg.9.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tab_bg.9.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint3.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint3.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_icon.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/icon.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint7.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint7.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_btn_begin.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/btn_begin.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/layout_echart.xml.flat",
+        "source": "drz.tmdb.app-main-26:/layout/echart.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint11.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint11.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_edit_tv.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/edit_tv.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/layout_activity_map.xml.flat",
+        "source": "drz.tmdb.app-main-26:/layout/activity_map.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_position.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/position.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint4.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint4.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_marker_blue.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/marker_blue.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_begin_selector.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/begin_selector.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint8.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint8.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_show_pressed.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/show_pressed.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint1.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint1.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint10.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint10.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_location_marker.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/location_marker.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint5.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint5.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_btn_exit_pressed.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/btn_exit_pressed.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint2.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint2.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_navi_map_gps_locked.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/navi_map_gps_locked.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/raw_eva.flat",
+        "source": "drz.tmdb.app-main-26:/raw/eva"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_btn_begin_pressed.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/btn_begin_pressed.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_show_selector.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/show_selector.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint9.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint9.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/layout_activity_show_class.xml.flat",
+        "source": "drz.tmdb.app-main-26:/layout/activity_show_class.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_exit_selector.xml.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/exit_selector.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/xml_echart.xml.flat",
+        "source": "drz.tmdb.app-main-26:/xml/echart.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_tpoint6.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/tpoint6.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/raw_old_memory.flat",
+        "source": "drz.tmdb.app-main-26:/raw/old_memory"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_whu.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/whu.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/layout_print_result.xml.flat",
+        "source": "drz.tmdb.app-main-26:/layout/print_result.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "drz.tmdb.app-main-26:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_btn_exit.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/btn_exit.png"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/layout_activity_main.xml.flat",
+        "source": "drz.tmdb.app-main-26:/layout/activity_main.xml"
+    },
+    {
+        "merged": "drz.tmdb.app-merged_res-24:/drawable_show.png.flat",
+        "source": "drz.tmdb.app-main-26:/drawable/show.png"
+    }
+]

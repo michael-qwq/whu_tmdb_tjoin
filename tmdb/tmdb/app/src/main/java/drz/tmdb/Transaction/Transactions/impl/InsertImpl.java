@@ -88,7 +88,7 @@ public class InsertImpl implements Insert {
 
     static Comparator<Coordinate> comparator = (p1, p2) -> {
         double dist = Geo.distance(p1, p2);
-        if (dist <= 50) return 0;
+        if (dist <= 5) return 0;
         return 1;
     };
     /**
@@ -158,8 +158,8 @@ public class InsertImpl implements Insert {
                     //通过TrajTrans.getTraj方法将当前元祖的轨迹部分转化为List<Coordinate> traj2进行后续操作
                     List<Coordinate> traj2=TrajTrans.getTraj((String)   tuple2.tuple[2]);
                     //通过longestCommonSubSequence.getCommonSubsequence获取当前两个traj的公共子序列
-                    double similarity = SimilarityFunction.LongestCommonSubsequence(traj1, traj2, 3);
-                    List<Coordinate> commonSubsequence = longestCommonSubSequence.getCommonSubsequence(traj1, traj2,3);
+                    double similarity = SimilarityFunction.LongestCommonSubsequence(traj1, traj2, 512);
+                    List<Coordinate> commonSubsequence = longestCommonSubSequence.getCommonSubsequence(traj1, traj2,512);
                     //如果子序列长度大于阈值，则需要在代理类中插入新的tuple
                     if(similarity>=1.0){
                         //新建临时tuple，这个tuple就是要往代理类中进行插入的tuple
